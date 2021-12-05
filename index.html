@@ -2,13 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Natalie VanDyke Portfolio" />
+    <meta name="title" property="og:title" content ="Natalie VanDyke Portfolio" />
+    <meta property="og:type" content="Portfolio" />
+    <meta 
+        name="image" 
+        property="og:image" 
+        content="https://live.staticflickr.com/65535/51270909118_18e58eb149_z.jpg" 
+    />
+    <meta name="description" property="og:description" content="Natalie VanDyke Portfolio" />
+    <meta name="author" content="Natalie VanDyke" />
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <title>Natalie VanDyke | Portfolio</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,273 +25,445 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
+
     <!-- Custom styles for this template -->
-    <link href="assets/css/app.css" rel="stylesheet" />
-    <title>Emilio Caraballo Castro | Portfolio</title>
+    <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-
-    <header>
-        <div class="wave">
-            <div class="container header-container">
-                <h1 class="name">Emilio Caraballo Castro.</h1>
-                <h3 class="subtitle text-center">Data analyst and Visualization Specialist with Mathematics Background.</h3>
-                <!-- <img src="assets/images/student.png" class="boy" alt="boy image" /> -->
+<body id="page-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button"
+                data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="wave-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" opacity="1" width="100%" height="80"
-                preserveAspectRatio="none" viewBox="0 0 1600 200">
-                <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
-                <path
-                    d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
-            </svg>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="assets/img/jane.jpg" alt="" />
+            <h1 class="mb-0">Hi, I'm Natalie!</h1>
+            <hr />
+            <h2 class="mb-0">
+                Data Analyst - Visual Storyteller - Policy Enthusiast
+            </h2>
+
+            <!-- Replace this text with your brand statement or other short text about you. -->
+            <p class="brand-statement">
+                Data analyst with a strong background in quantitative and qualitative research and experience in policy development. 
+                Certificate in Data Analytics through UC Berkeley Extension. Skilled in Python, SQL, Tableau, R, HTML and Javascript. 
+                Passionate about applying skills to create data-driven policies and improve communities through data insights. Strengths 
+                lie in communicating technical and conceptual complexities to provide clear and compelling insights to a variety of 
+                stakeholders. Works well in collaborative, problem-solving environments that require balancing critical thinking and 
+                creative skills to deliver success.
+            </p>
         </div>
     </header>
 
-    <section class="container">
-        <h1 class="title">Thanks for stopping by.
-        </h1>
-        <h3 class="subtitle">I am an enthusiastic software engineer with a passion for data management and visualization
-            using python technologies with Pandas and NumPy between others. </h3>
-    </section>
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">
+                Portfolio
+            </h2>
+            <hr class="star-dark mb-5" />
 
-
-    <section class="container skill-container">
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-
-                <div class="row text-center">
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-html5 fa-3x"></i>
-                            <p>HTML5</p>
+            <!-- Each project should include a header and a picture or animated gif.-->
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-1">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Plotly Project - Belly Button Biodiversity</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-css3-alt fa-3x"></i>
-                            <p>CSS3</p>
+                        <img class="img-fluid" src="assets/img/portfolio/ploty_project_1.1.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-2">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Charity Anaylsis Project - Deep Learning Neural Network</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-js-square fa-3x"></i>
-                            <p>JavaScript</p>
+                        <img class="img-fluid" src="assets/img/portfolio/charity_analysis_project.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>California Homicide Cases - Tableau and Machine Learning</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-node fa-3x"></i>
-                            <p>NodeJS</p>
+                        <img class="img-fluid" src="assets/img/portfolio/CA_homicide_project.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-4">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>World Weather Analysis with Google Maps Platform APIs</p>
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-git fa-3x"></i>
-                            <p>Git</p>
+                        <img class="img-fluid" src="assets/img/portfolio/world_weather_analysis.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-5">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>MechaCar Statistical Analysis with R</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
                         </div>
-                    </div>
+                        <img class="img-fluid" src="assets/img/portfolio/MechaCar_Thumbnail.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Mapping Earthquakes with GeoJSON Data </p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/EarthquakeNight.png" alt="" />
+                    </a>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <div class="wave-svg-color">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#328eff" opacity="1" width="100%" height="80"
-            preserveAspectRatio="none" viewBox="0 0 1600 200">
-            <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
-            <path
-                d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
-        </svg>
-    </div>
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white">About Me</h2>
+            <hr class="star-light mb-5" />
 
-    <section class="container-color">
+            <p class="about-me text-center">
+                I am an enthusiastic data analyst open to potential roles in the San Francisco Bay Area.
+            </p>
+        </div>
+        <div class="container">
+            <div class="col-md-10 offset-md-1">
+                <div class="row text-center skills-row">
+
+                    <!-- Replace these icons and text with skills you want to show case -->
+                    <!-- You should ideally not include any more than 5-6 tech skills -->
+                    <div class="col">
+                        <i class="fas fa-file-excel fa-2x"> Excel/VBA</i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-python fa-2x"> Python </i>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-database fa-2x"> SQL-NoSQL </i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-github fa-2x"> Github </i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-js-square fa-2x"> JavaScript </i>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-robot fa-2x"> Machine Learning </i>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-lg btn-outline-light" href="https://docs.google.com/document/d/1m0M5uNapZ2GYF2qDGe8uKYyt_pUG4p7V-8K5iQZZlX8/edit?usp=sharing">
+                    <i class="fas fa-download mr-2"></i>
+                    Resume
+                </a>
+            </div>
+        </div>
     </section>
-    <section class="container">
-        <div class="card custom-card">
-            <div class="card-body">
-                <span class="card-icon">
-                    <i class="fas fa-code"></i>
-                </span>
 
-                <h3 class="card-title">More about Me</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque
-                    viverra vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                    himenaeos. Vestibulum elementum fringilla lectus, ac condimentum mauris. Mauris vel tellus id tellus
-                    accumsan convallis sed sed elit. </p>
-                <h5 class="card-title">
-                    Technologies I use:
-                </h5>
-                <p class="card-text">
-                    Excel, VBA, Python, Conda, Git, Jupyter, HTML, Flask, PostgreSQL
+    <!-- Education -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">
+                Education
+            </h2>
+            <hr class="star-dark mb-5" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    UC Berkeley Extension |
+                    <span class="credential-date text-muted">Jan 2021 - July 2021</span>
+                </h2>
+                <p class="lead">Data Analytics Certificate</p>
+                <p class="credential-description">
+                    Learned and applied VBA, Python, SQL, NoSQL, JavaScript, HTML5/CSS, Git/GitHub, R, statistics, API interactions, 
+                    web scraping and machine learning. Completed projects using real data sets from the worlds of finance,
+                     healthcare, government, social welfare and more.
                 </p>
             </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Eastern Michigan University |
+                    <span class="credential-date text-muted">Aug 2011 - April 2014</span>
+                </h2>
+                <p class="lead">B.S. Biology</p>
+                <p class="credential-description">
+                    Graduated with Departmental Honors in Biology. Minored in Anthropology. Held a sponsored Research Fellowship 
+                    studying environmental DNA, conducting fieldwork and communicating findings at national academic conferences. 
+                    Undergraduate Honors Thesis published in 2014.  
+                </p>
+            </div>
+            <hr class="credential-divider" />
         </div>
     </section>
 
-
-
-
-
-    <!-- TIMELINE -->
-    <section class="container">
-        <h1 class="title">Recent Projects</h1>
-        <h3 class="subtitle">These are just a few of the projects I have collaborated on.</h3>
-    </section>
-
-
-    <div class="container">
-        <div id="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-
-                </div>
-                <div class="timeline-content">
-                    <h2>Project Title 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                    </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-
-                </div>
-                <div class="timeline-content right">
-                    <h2>Project Title 2</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
-                    </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-                </div>
-                <div class="timeline-content">
-                    <h2>Project Title 3</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
-                    </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
-
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-
-                </div>
-                <div class="timeline-content right">
-                    <h2>Project Title 4</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
-                    </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-                </div>
-                <div class="timeline-content">
-                    <h2>Project Title 5</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
-                    </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- EDUCATION -->
-    <section class="container education-container">
-        <h1 class="title">Education </h1>
-        <article class="education-item">
-            <h3 class="subtitle">Vanderbilt University</h3>
-            <span class="text-muted">Data Analyst and Visualization | Jun 2021 - Nov 2021</span>
-        </article>
-        <hr />
-        <article class="education-item">
-            <h3 class="subtitle">LabFour Education</h3>
-            <span class="text-muted">MCTS | Nov 2017 - Jan 2018</span>
-        </article>
-		<article class="education-item">
-            <h3 class="subtitle">University of Pinar del Rio</h3>
-            <span class="text-muted">BSc. computer Engineering | Sep 2005 - Jun 2011</span>
-        </article>
-        <hr />
-    </section>
-
-    <!-- AVAILABLE FOR WORK -->
-    <section class="container-color">
+    <!-- Footer -->
+    <footer class="footer text-center" id="connect">
         <div class="container">
-            <h1 class="title">I'm available for work.
-            </h1>
-            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in a fast-paced,
-                agile environment. Get in touch!</h3>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <section class="container-dark">
-        <div class="container">
-            <h1>Contact Me</h1>
-            <h3 class="intro subtitle">
-                <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
-                <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                <a href="jttps://github.com/" class="social-icon"><i class="fab fa-github"></i></a>
-                <a href="mailto:<YOUREMAIL>" class="social-icon"><i class="fas fa-envelope"></i></a>
-            </h3>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            Emilio Caraballo Castro &copy; 2017 - 2021 |
-
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h2 class="text-center text-uppercase mb-3">
+                        Connect with Me
+                    </h2>
+                    <p class="text-uppercase mb-4">
+                        npcolletti@gmail.com
+                    </p>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn-social text-center rounded-circle" href="https://www.linkedin.com/in/natalie-vandyke-ba963837/">
+                                <i class="fab fa-fw fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-social text-center rounded-circle" href="https://github.com/npvandyke">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Natalie VanDyke 2021-2022</small>
+        </div>
+    </div>
 
+
+
+    <!-- Portfolio Modals: These are what open up when you click on each project. Replace the information as needed. -->
+    <!-- Portfolio Modal 1 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-1">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Plotly Project - Belly Button Biodiversity
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project1.jpg" alt="" />
+                        <p class="mb-5">
+                            An interactive webpage hosted on GitHub Pages. The webpage 
+                            was created using JavaScript's Plotly and D3 libraries and displays
+                            filterable charts analyzing a JSON dataset containing 
+                            test subjects' demographic information and belly button bacteria biodiversity.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://npvandyke.github.io/Plotly_Projects/">
+                            Live Demo</a>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/npvandyke/Plotly_Projects.git">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-2">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Charity Analysis Project- Deep Learning neural network 
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project2.jpg" alt="" />
+                        <p class="mb-5">
+                            Using Python's TensorFlow library to implement a deep learning
+                            neural network to help a foundation vet potential donation recipients 
+                            in order to ensure that the donations are impactful.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/npvandyke/Neural_Network_Charity_Analysis.git">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            California Homicides Analysis
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project3.jpg" alt="" />
+                        <p class="mb-5">
+                            Using Tableau storyboards and machine learning models (created through Python's scikit-learn and TensorFlow libraries) to analyze 
+                            data on California homicide cases and determine relationships between victim demographics, county demographics, and crime solve rates. 
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://linzmacd.github.io/Final_Project/#viz1624173401511">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/linzmacd/Final_Project/tree/main/Google_Colab">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-4">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            World Weather Analysis 
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project4.jpg" alt="" />
+                        <p class="mb-5">
+                        Using Google Maps Platform APIs, an OpenWeatherMap API, and various Python dependencies 
+                        to analyze and visualize current weather data for over 500 cities across the world, and generate destinations and 
+                        itineraries based on filterable weather criteria. 
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/npvandyke/World_Weather_Analysis.git">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-5">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            MechaCar Statistical Analysis 
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project5.jpg" alt="" />
+                        <p class="mb-5">
+                            Using R, RStudio and MechaCar's datasets to perform a retrospective analysis of historical MechaCar data, 
+                            analytical verification and validation of current automotive specifications and study design for A/B product testing.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/npvandyke/MechaCar_Statistical_Analysis.git">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-6">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Mapping Earthquakes with GeoJSON Data 
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project6.jpg" alt="" />
+                        <p class="mb-5">
+                            Traversing and retrieving GeoJSON data on earthquakes and tectonic plates from the U.S. Geological Survey website using JavaScript and 
+                            D3 and Leaflet libraries, and plotting the data on a Mapbox map through an API request. 
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://npvandyke.github.io/Mapping_Earthquakes/">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/npvandyke/Mapping_Earthquakes/tree/main/static/js">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="assets/js/app.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+        integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,4 +1,2 @@
-# Portfolio
-[Portfolio](https://emilio-2021.github.io/portfolio/)
-
+# Click [here](https://npvandyke.github.io/portfolio/) to view my portfolio
 
