@@ -359,7 +359,13 @@
         </div>
 	<div class="copyright py-4 text-center text-white">
         <div class="container">
-            <small>Copyright &copy; Emilio Caraballo 2021-2026</small>
+<!--            <small>Copyright &copy; Emilio Caraballo 2021-2026</small>  -->
+
+			<p>&copy; <span id="year"></span> Emilio Caraballo. All rights reserved.</p>
+			<script>
+			  document.getElementById("year").textContent = new Date().getFullYear();
+			</script>
+			
         </div>
         </div>
     </footer>
