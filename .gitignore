@@ -1,0 +1,14 @@
+# Local notes
+career-technology-discussion.md
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Logs and local build artifacts
+*.log
+node_modules/
