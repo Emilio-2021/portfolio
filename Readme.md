@@ -17,9 +17,9 @@ My professional background includes enterprise applications, REST integrations, 
 ## Featured projects
 
 - [System Control Center - cpp-httplib](https://github.com/Emilio-2021/SysControlCenterCpp_httplibServer) - A complete C++ rework using cpp-httplib, SQLite, Inja templates, authentication, authorization, inventory, orders, refunds, and integration tests.
-- [System Control Center - Python](https://github.com/Emilio-2021/SystemControlCenterPy) - FastAPI and SQLAlchemy ERP-style application with transactional checkout, atomic inventory updates, refunds, roles, and support logging.
-- [Sales Cart Checkout](https://github.com/Emilio-2021/SalesCartCheckout) - C++17 storefront and checkout proof of concept with guest carts, simulated payments, order confirmation, and role-protected operations.
-- [System Control Center - handmade C++ server](https://github.com/Emilio-2021/SystemControlCenterCpp) - C++17 application with a custom HTTP server, SQLite persistence, sessions, authorization, inventory workflows, refunds, and automated tests.
+- [System Control Center - Python](https://github.com/Emilio-2021/system-control-center) - FastAPI and SQLAlchemy ERP-style application with transactional checkout, atomic inventory updates, refunds, roles, and support logging.
+- [Sales Cart Checkout](https://github.com/Emilio-2021/SalesCartCheckoutCpp_httplibServer) - C++17 storefront and checkout proof of concept with guest carts, simulated payments, order confirmation, and role-protected operations.
+- [System Control Center - handmade C++ server](https://github.com/Emilio-2021/system-control-center-cpp) - C++17 application with a custom HTTP server, SQLite persistence, sessions, authorization, inventory workflows, refunds, and automated tests.
 - [Movies ETL](https://github.com/Emilio-2021/Movies-ETL) - Data extraction, cleaning, transformation, and SQL loading using public movie datasets.
 - [Mapping Earthquakes](https://github.com/Emilio-2021/Mapping_Earthquakes) - Interactive GeoJSON visualization using JavaScript, D3, Leaflet, and Mapbox.
 
