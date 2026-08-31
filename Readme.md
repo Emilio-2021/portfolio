@@ -16,6 +16,7 @@ My professional background includes enterprise applications, REST integrations, 
 
 ## Featured projects
 
+- [Intake Flow API](https://github.com/Emilio-2021/intake-flow-api) - FastAPI document-intake backend for JSON/XML purchase orders with validation, SQLAlchemy/Alembic persistence, authentication, audit history, tests, Docker support, and a browser dashboard.
 - [System Control Center - cpp-httplib](https://github.com/Emilio-2021/SysControlCenterCpp_httplibServer) - A complete C++ rework using cpp-httplib, SQLite, Inja templates, authentication, authorization, inventory, orders, refunds, and integration tests.
 - [System Control Center - Python](https://github.com/Emilio-2021/system-control-center) - FastAPI and SQLAlchemy ERP-style application with transactional checkout, atomic inventory updates, refunds, roles, and support logging.
 - [Sales Cart Checkout](https://github.com/Emilio-2021/SalesCartCheckoutCpp_httplibServer) - C++17 storefront and checkout proof of concept with guest carts, simulated payments, order confirmation, and role-protected operations.
