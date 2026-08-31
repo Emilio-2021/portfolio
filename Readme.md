@@ -26,9 +26,9 @@ My professional background includes enterprise applications, REST integrations, 
 
 ## Education and certification
 
-- Data Analysis & Visualization - Vanderbilt University
-- B.S. in Computer Engineering - foreign degree; U.S. equivalency evaluated
+- Data Analysis & Visualization: Vanderbilt University
 - Microsoft Certified Professional (MCP)
+- B.S. in Computer Engineering
 
 ## Find me online
 
